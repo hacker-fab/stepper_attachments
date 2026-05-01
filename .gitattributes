@@ -1,1 +1,5 @@
+*.zip filter=lfs diff=lfs merge=lfs -text
 data/annotated_data.zip filter=lfs diff=lfs merge=lfs -text
+model/data/annotated_data.zip filter=lfs diff=lfs merge=lfs -text
+*.onnx filter=lfs diff=lfs merge=lfs -text
+model/weights.onnx filter=lfs diff=lfs merge=lfs -text
